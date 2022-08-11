@@ -14,7 +14,7 @@ Data is all over the place, and what matters is how we manage that data and make
     c) `output`
 
 2. Place the dataset in the S3 bucket under the `input` folder` 
-    - `aws s3 cp agg_filter.py s3://dataconla2022/input/` 
+    - `aws s3 cp dataset/wikicker.json s3://dataconla2022/input/` 
 
 3. Create an EMR cluster using the [steps mentioned here](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-setting-up.html)    
 
