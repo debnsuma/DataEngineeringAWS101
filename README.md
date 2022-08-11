@@ -14,7 +14,7 @@ Data is all over the place, and what matters is how we manage that data and make
     c) `output`
 
 2. Place the dataset in the S3 bucket under the `input` folder` 
-    - `aws s3 cp dataset/wikicker.json s3://dataconla2022/input/` 
+    - `aws s3 cp dataset/wikiticker.json s3://dataconla2022-1/input/` 
 
 3. Create an EMR cluster using the [steps mentioned here](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-setting-up.html)    
 
@@ -50,5 +50,8 @@ Data is all over the place, and what matters is how we manage that data and make
 
 2. Create an Application and use the IAM role created in `Step 1` 
 
-3. Submit a job and mentioned the Sreipt location as `s3://dataconla2022/code/agg_filter,py`
+3. Copy the code to the S3 bucket
+`aws s3 cp agg_filter_v2.py s3://dataconla2022-1/code/` 
+
+3. Submit a job and mentioned the script location as `s3://dataconla2022-1/code/agg_filter.py`
 
