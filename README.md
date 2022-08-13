@@ -51,7 +51,7 @@ Data is all over the place, and what matters is how we manage that data and make
 2. Create an Application and use the IAM role created in `Step 1` 
 
 3. Copy the code to the S3 bucket
-`aws s3 cp agg_filter_v2.py s3://dataconla2022-1/code/` 
+`aws s3 cp agg_filter.py s3://dataconla2022-1/code/` 
 
 3. Submit a job and mentioned the script location as `s3://dataconla2022-1/code/agg_filter.py`
 
