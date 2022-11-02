@@ -1,4 +1,4 @@
-# Data Con LA 2022
+# Data Engineering Fundamentals on AWS 
 
 ## Building a serverless data processing pipeline with PySpark on AWS
 
